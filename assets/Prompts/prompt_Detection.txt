@@ -1,0 +1,93 @@
+MENU_OPCIONES
+Este flujo debe activarse cuando el usuario quiera explorar opciones de diseño web, ver portafolio, ejemplos de trabajos o servicios disponibles.
+
+Ejemplos de intenciones:
+- "Muéstrame ejemplos de páginas web"
+- "¿Qué servicios ofreces?"
+- "Ver portafolio"
+- "¿Qué tipos de páginas puedes hacer?"
+- "Muéstrame el menú de servicios"
+- "Quiero ver opciones de diseño"
+- "¿Cuáles son tus paquetes?"
+- "Ejemplos de tu trabajo"
+- "¿Qué incluye el servicio?"
+
+Criterio:
+El usuario está interesado en conocer los servicios de diseño web, ver ejemplos de trabajos anteriores o explorar opciones de paquetes y precios.
+
+---
+
+FAQ
+Este flujo se activa cuando el usuario tiene preguntas sobre desarrollo web, tecnologías, procesos de diseño o dudas técnicas generales.
+
+Ejemplos de intenciones:
+- "¿Qué es responsive design?"
+- "¿Cuánto tiempo toma hacer una página?"
+- "¿Qué es SEO?"
+- "¿Diferencia entre dominio y hosting?"
+- "¿Qué plataforma usas?"
+- "¿Cómo funciona el proceso?"
+- "¿Incluye mantenimiento?"
+- "¿Qué es WordPress?"
+- "¿Necesito hosting?"
+
+Criterio:
+El usuario busca información educativa sobre desarrollo web, procesos de trabajo, tecnologías o conceptos técnicos relacionados con páginas web.
+
+---
+
+
+
+Criterio:
+El usuario desea conocer precios, obtener una cotización personalizada o información sobre costos y formas de pago para su proyecto web.
+
+---
+
+SALUDO
+Este flujo debe activarse cuando el usuario salude o inicie una conversación de manera amigable.
+
+Ejemplos de intenciones:
+- "Hola"
+- "Buenos días"
+- "Buenas tardes"
+- "Hey"
+- "Hola, necesito ayuda"
+- "¿Cómo estás?"
+
+Criterio:
+El usuario está iniciando una conversación con un saludo cordial.
+
+---
+
+REGISTRAR_PROYECTO
+Este flujo debe activarse cuando el usuario quiera iniciar un nuevo proyecto web o proporcionar información sobre su idea.
+
+Ejemplos de intenciones:
+- "Quiero crear una página web"
+- "Necesito un sitio web"
+- "Iniciar proyecto"
+- "Crear mi página"
+- "Desarrollar sitio web"
+- "Necesito presencia online"
+- "Quiero digitalizar mi negocio"
+
+Criterio:
+El usuario expresa interés en comenzar un proyecto de desarrollo web y necesita proporcionar información inicial sobre sus necesidades.
+
+---
+
+CREATE_WEB_PAGE
+Este flujo debe activarse cuando el usuario quiere generar una página web específica usando V0, con información detallada ya en mente.
+
+Ejemplos de intenciones:
+- "Crear una página web ahora"
+- "Generar mi sitio web"
+- "Hacer una página con V0"
+- "Empezar a crear mi web"
+- "Vamos a diseñar mi página"
+- "Construir mi sitio web"
+- "Desarrollar mi página web"
+- "Lanzar mi sitio web"
+
+Criterio:
+El usuario está listo para proporcionar información específica y detallada para la generación inmediata de su página web usando la tecnología V0.

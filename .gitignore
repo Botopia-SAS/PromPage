@@ -1,0 +1,435 @@
+# 🚀 WebCraft AI - Professional .gitignore
+# ==========================================
+
+# 🔐 Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# 📱 WhatsApp & API Keys
+jwtToken
+bot_session/
+whatsapp_session/
+.wwebjs_auth/
+.wwebjs_cache/
+*_sessions/
+*tokens
+.wwebjs*
+*qr.png
+
+# 🤖 OpenAI & V0 Credentials
+openai.key
+v0.key
+api_keys.json
+
+# 💳 Payment Gateway Secrets
+dlo_config.json
+payment_keys/
+
+# 📊 Database Credentials
+supabase_keys/
+database.env
+db_config.json
+
+# 🗂️ Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 📦 Package Manager Lock Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm/
+
+# 🏗️ Build Output
+dist/
+dist/*
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# ⚡ Runtime & Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.tscache/
+
+# 📝 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 🧪 Coverage & Testing
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+test-report/
+
+# 🖼️ Temporary Files
+temp/
+tmp/
+*.tmp
+*.temp
+temp_*
+.temp/
+
+# 📸 Image Processing
+temp_image_*
+temp_audio_*
+uploads/
+processed_images/
+
+# 🎵 Audio Processing
+*.wav
+*.ogg
+*.mp3
+*.m4a
+temp_audio.*
+
+# 🧠 AI Generated Content
+ai_cache/
+generated_prompts/
+v0_cache/
+
+# 📱 Mobile & Device Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 🖥️ IDE & Editor Files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# 🔧 JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 🍎 macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# 🐧 Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🪟 Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# 🗃️ Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 📊 TypeScript
+*.tsbuildinfo
+.tscache/
+
+# 🎯 ESLint
+.eslintcache
+
+# 🎨 Stylelint
+.stylelintcache
+
+# 💾 Optional npm cache directory
+.npm
+
+# 🧹 Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# 📈 Optional REPL history
+.node_repl_history
+
+# 📤 Output of 'npm pack'
+*.tgz
+
+# 📥 Yarn Integrity file
+.yarn-integrity
+
+# 🗂️ parcel-bundler cache
+.cache
+.parcel-cache
+
+# 🛠️ Rollup cache
+.rollup.cache/
+
+# ⚡ Vite cache
+.vite/
+
+# 🔥 Firebase
+.firebase/
+firebase-debug.log
+
+# 🌊 Supabase
+.supabase/
+
+# 📊 Database
+*.db
+*.sqlite
+*.sqlite3
+
+# 🗄️ Backup files
+*.backup
+*.bak
+*.swp
+*.orig
+
+# 📈 Performance monitoring
+.clinic/
+
+# 🧪 Jest
+jest_html_reporters.html
+
+# 📊 NYC
+.nyc_output/
+
+# 🔬 Instrumentor generated files
+coverage.lcov
+
+# 🏃 Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 📡 Grunt intermediate storage
+.grunt
+
+# 🎯 Bower dependency directory
+bower_components
+
+# 📦 node-waf configuration
+.lock-wscript
+
+# 🏗️ Compiled binary addons
+build/Release
+
+# 📊 Dependency directories
+node_modules/
+jspm_packages/
+
+# 💾 Snowpack dependency directory
+web_modules/
+
+# 🔄 Optional npm cache directory
+.npm
+
+# 🧹 Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# 📈 Optional REPL history
+.node_repl_history
+
+# 📤 Output of 'npm pack'
+*.tgz
+
+# 📥 Yarn Integrity file
+.yarn-integrity
+
+# 🗂️ parcel-bundler cache
+.cache
+.parcel-cache
+
+# 🏗️ Next.js build output
+.next
+
+# 🎯 Nuxt.js build / generate output
+.nuxt
+dist
+
+# 🔥 Gatsby files
+.cache/
+public
+
+# 🎨 Storybook build outputs
+.out
+.storybook-out
+
+# 🔄 Temporary folders
+.tmp/
+.sass-cache/
+
+# 📊 Serverless directories
+.serverless/
+
+# 🔥 FuseBox cache
+.fusebox/
+
+# 🗂️ DynamoDB Local files
+.dynamodb/
+
+# 🔌 TernJS port file
+.tern-port
+
+# 🏪 Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# 📱 yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# 🚀 Deployment
+.vercel
+.netlify
+
+# 🤖 AI & ML Models
+models/
+*.model
+*.pkl
+*.h5
+*.pb
+
+# 📊 Data files
+data/
+datasets/
+*.csv
+*.json.bak
+*.xlsx
+
+# 🔒 Security
+.secrets/
+secrets.json
+private_keys/
+
+# 🧪 Testing artifacts
+test-results/
+screenshots/
+videos/
+artifacts/
+
+# 🗃️ Archives & Backups
+backups/
+*.backup
+archive/
+
+# 🎨 Design files
+*.sketch
+*.fig
+*.psd
+*.ai
+
+# 📱 Mobile development
+android/
+ios/
+platforms/
+
+# ===========================================
+# 🎯 PROJECT SPECIFIC IGNORES
+# ===========================================
+
+# 📱 WhatsApp Session Data
+bot_sessions/
+whatsapp_auth/
+.wwebjs_auth/
+*.session
+
+# 🤖 AI Cache & Temp Files
+ai_temp/
+v0_temp/
+openai_cache/
+
+# 💳 Payment Processing
+payment_logs/
+transaction_data/
+
+# 📊 Analytics & Monitoring
+analytics/
+metrics/
+monitoring/
+
+# 🔄 Queue & Processing
+queue_data/
+processing_cache/
+
+# 📝 User Generated Content
+user_uploads/
+generated_sites/
+temp_files/
+
+# ===========================================
+# ✅ ALWAYS INCLUDE (Exceptions)
+# ===========================================
+
+# Keep essential config files
+!.gitkeep
+!.env.example
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Keep documentation
+!README.md
+!CHANGELOG.md
+!LICENSE
+!docs/
+
+# Keep essential configs
+!tsconfig.json
+!package.json
+!rollup.config.js
+!.eslintrc.*
+!DATABASE_RULES.md
